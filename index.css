@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+a {
+  @apply text-blue-600 hover:text-blue-800 transition;
+}
+section {
+  @apply py-12 px-6 max-w-5xl mx-auto;
+}
+h2 {
+  @apply text-3xl font-bold mb-6 text-gray-900;
+}
