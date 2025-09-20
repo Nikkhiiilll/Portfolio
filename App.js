@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
-import Footer from "./components/Footer";
+import Navbar from "Navbar";
+import Hero from "Hero";
+import Projects from "Projects";
+import Certifications from "Certifications";
+import Footer from "Footer";
 
 function App() {
   return (
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
