@@ -1,5 +1,5 @@
 import React from "react";
-import certs from "../data/certifications.json";
+import certs from "certifications.json";
 
 function Certifications() {
   return (
@@ -29,3 +29,4 @@ function Certifications() {
 }
 
 export default Certifications;
+
