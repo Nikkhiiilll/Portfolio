@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../data/projects.json";
+import projects from "projects.json";
 
 function Projects() {
   return (
@@ -30,3 +30,4 @@ function Projects() {
 }
 
 export default Projects;
+
