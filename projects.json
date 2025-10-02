@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Enterprise Data Quality Framework",
+    "tech": "PySpark, Streamlit, SQL, Hive",
+    "link": "https://enterprise-data-quality-framework-jwrdcikjfmbgm3nwyghsxu.streamlit.app/",
+    "description": "Data quality monitoring framework for >10M rows, with Streamlit dashboard and Hive SQL integration."
+  },
+  {
+    "title": "Healthcare Claims Analytics",
+    "tech": "SQL, Excel, Power BI",
+    "link": "https://r7daohjww95npgvf3xpfov.streamlit.app/",
+    "description": "Claims dataset analysis, denial reason visualization, 15% improvement in claim success."
+  },
+  {
+    "title": "E-commerce Sales Dashboard",
+    "tech": "Power BI, Python, Pandas",
+    "link": "https://ei5kwucx573jc8g8gsu7ms.streamlit.app/",
+    "description": "Sales dashboard tracking revenue trends, churn, and customer retention KPIs."
+  },
+  {
+    "title": "Customer Segmentation and Clustering",
+    "tech": "Python, Pandas, Matplotlib, Streamlit",
+    "link": "https://customer-segmentation-and-clustering-bsappu9hkmvt2xex29qpf4z.streamlit.app/",
+    "description": "This project involved analyzing customer data to identify distinct purchasing behaviors and patterns through exploratory data analysis."
+  }
+]

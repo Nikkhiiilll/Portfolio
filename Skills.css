@@ -1,0 +1,48 @@
+/* src/components/Skills.css */
+.skills-section {
+  background-color: var(--color-background);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.skills-card {
+  background-color: var(--color-card-background);
+  color: var(--color-secondary-text);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px var(--box-shadow);
+  transition: transform 0.2s ease;
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px var(--box-shadow);
+}
+
+.skills-category-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list-item {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+}

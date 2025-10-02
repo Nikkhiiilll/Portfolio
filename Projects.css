@@ -1,0 +1,60 @@
+/* src/components/Projects.css */
+.projects-section {
+    background-color: var(--color-background);
+    color: var(--color-secondary-text);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.project-card {
+    background-color: var(--color-card-background);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.project-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-size: 1rem;
+}
+
+.project-link {
+    background-color: var(--color-green-accent);
+    color: var(--color-card-background);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.project-link:hover {
+    background-color: #2050b3;
+    transform: translateY(-2px);
+}

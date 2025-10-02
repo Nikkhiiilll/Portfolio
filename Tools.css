@@ -1,0 +1,27 @@
+/* src/components/Tools.css */
+.tools-section {
+  background-color: var(--color-background);
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tool-card {
+  background-color: var(--color-card-background);
+  color: var(--color-headings);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: var(--font-body);
+  box-shadow: 0 4px 6px var(--box-shadow);
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px var(--box-shadow);
+}
