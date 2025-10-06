@@ -1,4 +1,4 @@
-// src/components/Certifications.js
+
 import React from 'react';
 import './Certifications.css';
 import certifications from "../data/certifications.json";
@@ -19,5 +19,6 @@ function Certifications() {
         </section>
     );
 }
+
 
 export default Certifications;
