@@ -1,4 +1,4 @@
-
+/* src/components/Certifications.css */
 .certifications-section {
     background-color: var(--color-background);
     color: var(--color-secondary-text);
@@ -61,3 +61,4 @@
     transform: translateY(-2px);
 
 }
+
